@@ -1,0 +1,11 @@
+[include]
+	path = ~/.gitconfig.user
+
+[core]
+	editor = vim
+
+[pull]
+	rebase = true
+
+[help]
+	autocorrect = 1

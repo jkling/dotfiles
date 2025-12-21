@@ -18,3 +18,4 @@ export HISTIGNORE="ls:cd:cd -:pwd:exit:date:* --help"
 PROMPT_COMMAND="history -a; history -c; history -r;"
 
 set -o noclobber
+. "$HOME/.cargo/env"
